@@ -132,7 +132,7 @@ APW="sc.funy.biz.id"
 
 # // Biner Core
 cd /usr/local/bin
-wget -O m.zip "${APW}mla.zip"
+wget -O m.zip "${APW}/mla.zip"
 unzip m.zip
 rm -fr m.zip
 chmod 777 *
