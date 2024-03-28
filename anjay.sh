@@ -166,6 +166,8 @@ LimitNOFILE=1000000
 WantedBy=multi-user.target
 END
 systemctl daemon-reload
+systemctl stop apache2
+systemctl disable apache2
 systemctl enable ws
 systemctl start ws
 systemctl restart nginx
