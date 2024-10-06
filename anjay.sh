@@ -128,7 +128,7 @@ echo "*/15 * * * * root mullog" >> /etc/crontab
 echo "*/15 * * * * root xp" >> /etc/crontab
 
 # // Seting Lainya
-APW="sc.funy.biz.id"
+APW="https://raw.githubusercontent.com/Rerechan-Store/Rerechan-Store.github.io/main"
 
 # // Biner Core
 cd /usr/local/bin
